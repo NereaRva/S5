@@ -44,13 +44,16 @@ li{
     font-size: 20px;
     margin: 20px 0 20px 0;
 }
-/*apartado*/
+.list li{
+    width: 30%;
+}
 .main{
     
 }
 .article{
     display: flex;
     margin-bottom: 30px;
+    gap: 30px;
 }
 .news{
     width: 100%;
@@ -58,15 +61,31 @@ li{
     flex-direction: column;
     justify-content: space-between;
 }
-/*apartado*/
 .footer{
     display: flex;
     gap: 20px;
     border-bottom: 1px solid rgb(235, 229, 229);
 }
-/*apartado*/
 .doc{
     display: flex;
     gap: 30px;
+}
+/*Versión desktop*/
+@media (min-width: 768px){
+	.main{
+		 display:flex;
+         flex-wrap: wrap;
+         gap: 20px;
+	}
+    .article{
+        width: 30%;
+        display: block;
+    }
+    .article img{
+        width: 100%;
+    }
+    .hijo2{
+        width: 100%;
+    }
 }
 
