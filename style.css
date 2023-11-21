@@ -70,6 +70,9 @@ li{
     display: flex;
     gap: 30px;
 }
+.news__1{
+    display: none;
+}
 /*Versión desktop*/
 @media (min-width: 768px){
 	.main{
@@ -77,6 +80,9 @@ li{
          flex-wrap: wrap;
          gap: 20px;
 	}
+    *{
+        font-size: small;
+    }
     .article{
         width: 30%;
         display: block;
