@@ -47,6 +47,9 @@ li{
 .list li{
     width: 30%;
 }
+.list_desktop{
+    display: none;
+}
 .main{
     
 }
@@ -93,5 +96,22 @@ li{
     .hijo2{
         width: 100%;
     }
+    .list_desktop{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .list{
+        display: none;
+    }
+    .list_desktop ul{
+        display: block;
+        border: none;
+        padding: 0;
+    }
+    .header{
+        gap: 50px;
+    }
 }
+
 
